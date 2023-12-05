@@ -1,0 +1,6 @@
+Testowana aplikacja nie może zostać wypuszczona w obecnym stanie. 
+Duży udział rażących błędów, przy stosunkowo prostej aplikacji naraża na szwank reputację firmy. Oprogramowanie nie jest w żadnym wypadku konkurencyjne, 
+wymaga poprawy zgłoszonych błędów oraz dodania proponowanych funkcjonalności:
+
+1. aplikacja powinna mieć możliwość odzyskiwania/zmiany hasła
+2. możliwość zmiany waluty po aktualnym kursie oraz możliwość śledzenia kursów walut
