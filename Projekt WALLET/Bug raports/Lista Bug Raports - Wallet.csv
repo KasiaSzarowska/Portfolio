@@ -1,0 +1,13 @@
+id;title;test case id;author;assignee;actual result;status;milestone;severity;external issues;attachments;tags
+1;"rejestracja za pomoc¹… spacji w polu ""name""";7;Kasia Szarowska;;"Rejestracja u¿ytkownika za pomoc¹ spacji w polu ""name"" jest mo¿liwa";Open;;Normal;;;
+2;Przejœcie na stronie logowania ze strony rejestracji;12;Kasia Szarowska;;strona nie za ka¿dym razem ³aduje siê;Open;;Normal;;https://d2cxucsjd6xvsd.cloudfront.net/public/team/f7fe3eaefebdeecd06660c32bcd585d9f0d2145b/attachment/015c837f73c05c9a2e557bf30a0ab5325beb6558/image.png;
+3;Literówki na stronie logowania;;;;;;;;;;
+4;"Brak spacji na przycisku ""Log in"" na stronie rejestracji";;Kasia Szarowska;;"Na przycisku do przejœcia na stronê logowania widnieje napis ""LOGIN"" - powinien byæ ""LOG IN"" (zgodnie ze specyfikacj¹)";Open;;Minor;;;
+5;brak modalu potwierdzaj¹cego wylogowanie;24;Kasia Szarowska;;po klikniêciu przycisku wyloguj nie pojawia siê modal potwierdzaj¹cy wylogowanie (zgodnie ze specyfikacj¹);Open;;Normal;;;
+6;dodanie transakcji bez komentarza jest niemo¿liwe;15;Kasia Szarowska;;dodanie komentarza do transakcji jest opcjonalne (wg specyfikacji). Aktualnie transakcji nie mo¿na dodaæ bez niego.;Open;;Normal;;;
+7;brak aktualnej daty w polu tworzenia transakcji;15;Kasia Szarowska;;podczas tworzenia transakcji data powinna byæ domyœlnie ustawiona na dzieñ w którym tworzymy transakcjê;Open;;Major;;;
+8;brak komunikatu o nieprawid³owej kwocie przy wpisaniu kwoty 0.00 w oknie transakcji;22;Kasia Szarowska;;"przy wpisywaniu kwoty 0.00 i dodaniu komentarza podœwietla siê przycisk ""add transaction"". Po wpisaniu kwoty 0.00 powinien siê pojawiæ komunikat o nieprawid³owej kwocie";Open;;Not set;;;
+9;b³êdna data na liœcie transakcji;20;Kasia Szarowska;;data na liœcie transakcji jest wczeœniejsza o jeden dzieÅ„ od wprowadzonej na w oknie transakcji;Open;;Critical;;;
+10;edycja kwoty i daty;32;Kasia Szarowska;;podczas edycji transakcji mo¿liwa jest edycja kwoty i daty. Zgodnie z wytycznymi jedynie komentarz mo¿na edytowaæ;Open;;Not set;;;
+11;B³¹d opisu karty statystyk;28;Kasia Szarowska;;"Karta diagram powinna mieæ nazwê ""statistics""";Open;;Not set;;https://d2cxucsjd6xvsd.cloudfront.net/public/team/f7fe3eaefebdeecd06660c32bcd585d9f0d2145b/attachment/5c6b3506d2f652207290248f877f67d7a216cd70/image.png;
+12;"przycisk dodania transakcji randomowo znika z pozycji karty ""statistics""";29;Kasia Szarowska;;przycisk dodania transakcji randomowo siê pojawia z pozycji karty statystyk. Dodanie transakcji zgodnie ze specyfikacj¹ jest mo¿liwe z tej pozycji;Open;;Major;;https://d2cxucsjd6xvsd.cloudfront.net/public/team/f7fe3eaefebdeecd06660c32bcd585d9f0d2145b/attachment/6ed84b571501fb112e0328ab948e0af4d6358721/image.png;
